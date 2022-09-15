@@ -1,0 +1,9 @@
+/* CSS classes need the dot "." before their names. That is how CSS identifies classes in your markup code. */
+
+.text-red {
+    color: red;
+}
+
+.text-blue {
+    color: blue;
+}
