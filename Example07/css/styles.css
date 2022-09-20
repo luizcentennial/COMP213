@@ -1,0 +1,24 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th, td {
+    padding: 1rem;
+}
+
+th {
+    color: #333333;
+}
+
+td {
+    color: #4d4d4d;
+
+}
+
+/* We can use pseudo-classes to add styling customizations when specific events occur.
+In the example below, the formatting is applied to <tr> elements upon mouse hover. */
+tr:hover {
+    background-color: #66ccff;
+}

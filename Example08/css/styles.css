@@ -1,0 +1,5 @@
+.logo {
+    /* Width 100% means that elements will be sized in proportion to its container.
+    100% means 100% of the container's size, but other proportions could also be used (i.e. 50%). */
+    width: 100%;
+}
