@@ -7,6 +7,8 @@ while id's are supposed to apply to one single element. */
     padding: 1rem;
     width: 50%;
     margin: auto;
+    display: flex;
+    flex-direction: row;
 }
 
 #first-div {
