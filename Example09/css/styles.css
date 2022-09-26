@@ -1,7 +1,8 @@
-/* In CSS, id's applied to HTML elements are identified with a '#' before the identifier. 
+/* In CSS, id's applied to HTML elements are identified with a '#' before the identifier.
 
-The main difference between classes and id's is that a class usually applies to multiple elements,
-while id's are supposed to apply to one single element. */
+The main difference between classes and id's is that a class usually appplies to multiple elements,
+while id's are supposed to apply to one single element.*/
+
 #container {
     background-color: #ccefff;
     padding: 1rem;
@@ -11,12 +12,10 @@ while id's are supposed to apply to one single element. */
     flex-direction: row;
 }
 
-#first-div {
+#first-div { 
     background-color: #1ab6ff;
-    /* margin-bottom: 5rem; */
 }
 
-#second-div {
+#second-div { 
     background-color: #006999;
-    color: white;
 }
