@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example13</title>
+
+    <!-- Linking CSS. -->
+    <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+    <h1>Example 13</h1>
+
+    <div id="login-container">
+        <h3>Sign In</h3>
+        <hr/>
+
+        <!-- Forms are used to collect information from the user.
+        This data is usually posted to the server through HTTP. 
+    
+        Forms are used to implement features such as login, sign up, contact forms, etc. 
+    
+        Forms can be used to send data to the server. 
+        Usually, we set up forms to submit information through POST requests, as they are more
+        secure. -->
+
+        <form method="post">
+            <input name="first-name" type="text" placeholder="Username" />
+            <input name="password" type="password" placeholder="Password" />
+            <input type="submit" value="Sign In" />
+            <input type="reset" />
+        </form>
+    </div>
+</body>
+</html>

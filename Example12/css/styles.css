@@ -1,0 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#section-one {
+    color: blue;
+}
+
+#section-two {
+    color: red;
+}

@@ -1,0 +1,26 @@
+#login-container {
+    margin: auto;
+    width: 50%;
+    max-width: 200px;
+    text-align: center;
+    border: 0.5px solid grey;
+    border-radius: 0.25rem;
+    padding: 1rem;
+}
+
+input {
+    margin-bottom: 1rem;
+}
+
+hr {
+    border: 0.25px solid grey;
+    margin-bottom: 1rem;
+}
+
+/* Child selectors ">" can be used to target elements inside of other elements.
+
+The example below targets an <h3> inside a container which id is "login-container". */
+
+#login-container > h3 {
+    margin-top: 0;
+}
