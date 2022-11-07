@@ -13,6 +13,11 @@
     text-align: justify;
 }
 
+/* 
+    Setting the column margin to 1rem, produces unwanted margins on the first and last columns, making it look like the text is not properly arranged.
+    Selectors :first-child and :last-child can be used to address this issue dynamically, without the need to hard-code any other styling to specific columns.
+*/
+
 .column:first-child {
     margin-left: 0;
 }
