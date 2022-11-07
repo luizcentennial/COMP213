@@ -1,0 +1,38 @@
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    margin: 1rem;
+    text-align: justify;
+}
+
+.column:first-child {
+    margin-left: 0;
+}
+
+.column:last-child {
+    margin-right: 0;
+}
+
+/* 
+    Typical breakpoints for media queries:
+
+    - Small devices: 600px;
+    - Small tablets: 768px;
+    - Large devices: 992px;
+    - Extra large devices: 1200px;
+
+*/
+
+@media screen and (max-width: 992px) {
+    .row {
+        flex-direction: column;
+    }
+}

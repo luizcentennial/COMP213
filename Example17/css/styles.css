@@ -1,0 +1,12 @@
+/* Media queries can be used to specify special styling rules, depending on screen size. */
+
+/* 
+    The syntax below applies a styling rule to the document's body when the screen size is 600px or more. 
+    For the opposite behavior, we can use the "max-width" parameter instead.
+*/
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: red;
+    }
+}
