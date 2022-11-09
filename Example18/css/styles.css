@@ -14,30 +14,37 @@
 }
 
 /* 
-    Setting the column margin to 1rem, produces unwanted margins on the first and last columns, making it look like the text is not properly arranged.
-    Selectors :first-child and :last-child can be used to address this issue dynamically, without the need to hard-code any other styling to specific columns.
+    Setting the column margin to 1rem produces unwanted margins on the first and last columns, resulting in misaligned content.
+    Selectors ":first-child" and ":last-child" can be used to address this issue dynamically, without the need to hard-code any other styling rules to specific columns.
 */
 
-.column:first-child {
+.row > .column:first-child {
     margin-left: 0;
 }
 
-.column:last-child {
+.row > .column:last-child {
     margin-right: 0;
 }
 
 /* 
-    Typical breakpoints for media queries:
+    Typical breakpoints for media quieries:
 
     - Small devices: 600px;
     - Small tablets: 768px;
     - Large devices: 992px;
     - Extra large devices: 1200px;
-
 */
 
 @media screen and (max-width: 992px) {
     .row {
         flex-direction: column;
+    }
+
+    .column {
+        margin: 0;
+    }
+
+    .container {
+        width: 80%;
     }
 }
