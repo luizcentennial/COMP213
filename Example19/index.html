@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example 19</title>
+
+    <!-- Linking CSS. -->
+    <link rel="stylesheet" href="/css/styles.css"/>
+</head>
+<body>
+    <div class="container">        
+        <h1>Example 19</h1>
+
+        <h2>Create account</h2>
+        <hr/>
+
+        <form method="post">
+            <div class="row">
+                <div class="column-33"><input type="text" class="form-input" placeholder="First name" name="first-name"/></div>
+                <div class="column-33"><input type="text" class="form-input" placeholder="Last name" name="last-name"/></div>
+                <div class="column-33"><input type="text" class="form-input" placeholder="Username" name="username"/></div>
+            </div>
+            <div class="row">
+                <div class="column-33"><input type="password" class="form-input" placeholder="Password" name="password"/></div>
+                <div class="column-33"><input type="password" class="form-input" placeholder="Confirm password" name="confirm-password"/></div>
+                <div class="column-33"><input type="email" class="form-input" placeholder="Email" name="email"/></div>
+            </div>
+            <div class="row">
+                <div class="column-33"><input type="tel" placeholder="Phone" class="form-input" name="phone"/></div>
+                <div class="column-33"><input type="date" placeholder="Date of birth" class="form-input" name="date-of-birth"/></div>
+                <div class="column-33">
+                    <select name="country" class="form-input">
+                        <option value="" selected disabled>Select a country</option>
+                        <option value="ca">Canada</option>
+                        <option value="us">US</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column-50 text-center">
+                    <input type="radio" name="gender" id="radio-gender-male"/>&nbsp;<label for="radio-gender-male">Male</label>
+                    <input type="radio" name="gender" id="radio-gender-female"/>&nbsp;<label for="radio-gender-female">Female</label>
+                    <input type="radio" name="gender" id="radio-gender-rns"/>&nbsp;<label for="radio-gender-rns">Rather not say</label>
+                </div>
+                <div class="column-50 text-center"><input type="checkbox" id="check-not-robot"/>&nbsp;<label for="check-not-robot">I'm not a robot</label></div>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="button button-primary">Create</button>
+                <button type="reset" class="button button-secondary">Reset</button>
+            </div>
+            
+            
+            
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+/* Color Theme Swatches in Hex */
+.Teal-and-Gray-1-hex { color: #00747C; }
+.Teal-and-Gray-2-hex { color: #00BBC9; }
+.Teal-and-Gray-3-hex { color: #CACACA; }
+.Teal-and-Gray-4-hex { color: #878787; }
+.Teal-and-Gray-5-hex { color: #202022; }
+
+
+/* GENERAL */
+
+@font-face {
+    font-family: Montserrat;
+    src: url(/font/Montserrat.ttf);
+}
+
+body {
+    font-family: Montserrat;
+}
+
+
+/* LAYOUTING */
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.column-33 {
+    width: 33%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.column-50 {
+    width: 50%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.row > .column-33:first-child, .row > .column-50:first-child {
+    padding-left: 0;
+}
+
+/* .row > .column-33:last-child {
+    padding-right: 0;
+} */
+
+
+.form-input {
+    width: 100%;
+}
+
+.button {
+    margin: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    border: none;
+    padding: 0.25rem 1rem 0.25rem 1rem;
+}
+
+.button-primary {
+    background-color: #00747C;
+    color: #FAFAFA;
+}
+
+.button-primary:hover {
+    background-color: #00BBC9;
+    transition: 100ms;
+}
+
+.button-secondary {
+    background-color: #878787;
+    color: #FAFAFA;
+}
+
+.button-secondary:hover {
+    background-color: #CACACA;
+    transition: 100ms;
+    color: #202022;
+}
+
+
+/* TEXT ALIGNMENT */
+
+.text-center {
+    text-align: center;
+}
