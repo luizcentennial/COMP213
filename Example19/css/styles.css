@@ -18,7 +18,7 @@ body {
 }
 
 
-/* LAYOUTING */
+/* ROW STRUCTURE */
 
 .container {
     width: 60%;
@@ -34,24 +34,19 @@ body {
 
 .column-33 {
     width: 33%;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .column-50 {
     width: 50%;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .row > .column-33:first-child, .row > .column-50:first-child {
-    padding-left: 0;
+    margin-left: 0;
 }
-
-/* .row > .column-33:last-child {
-    padding-right: 0;
-} */
-
 
 .form-input {
     width: 100%;
@@ -72,6 +67,7 @@ body {
 
 .button-primary:hover {
     background-color: #00BBC9;
+    color: #FAFAFA;
     transition: 100ms;
 }
 
@@ -82,8 +78,8 @@ body {
 
 .button-secondary:hover {
     background-color: #CACACA;
-    transition: 100ms;
     color: #202022;
+    transition: 100ms;
 }
 
 
