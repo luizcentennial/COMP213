@@ -18,18 +18,19 @@ body {
 }
 
 
-/* ROW STRUCTURE */
+/* CONTAINERS */
 
 .container {
     width: 60%;
     margin: auto;
 }
 
+
+/* ROW STRUCTURE */
+
 .row {
     display: flex;
     flex-direction: row;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
 }
 
 .column-33 {
@@ -44,12 +45,21 @@ body {
     margin-right: 0.5rem;
 }
 
-.row > .column-33:first-child, .row > .column-50:first-child {
+.row > .column-33:first-child, 
+.row > .column-50:first-child {
     margin-left: 0;
+}
+
+.row > .column-50 > input[type=radio], 
+.row > .column-33 > input[type=radio],
+.row > .column-50 > input[type=checkbox], 
+.row > .column-33 > input[type=checkbox] {
+    margin: 0.5rem 0 0.5rem 0;
 }
 
 .form-input {
     width: 100%;
+    margin: 0.5rem 0 0.5rem 0;
 }
 
 .button {
